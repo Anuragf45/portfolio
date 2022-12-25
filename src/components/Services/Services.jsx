@@ -24,12 +24,12 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Skills</span>
+        <span>Always on Learing Mode</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          Grooming in Backend Development with FunctionUp from last 6 months.
           <br />
-          ispum is simpley dummy text of printing
+          ...
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Still Learning"}
+            detail={"ReactJS"}
           />
         </motion.div>
         {/* second card */}
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={" JavaScript, Nodejs, Express"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Known Databases"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "MongoDB"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
