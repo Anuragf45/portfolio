@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
+
 import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
+
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -21,18 +20,14 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Experience
           </span>
-          <span>Brands & Clients</span>
+          <span>Intern at these</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Worked at FunctionUp as a Backened developer
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+           Also worked as an intern at TCS as front End developer.
+          
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -53,18 +48,12 @@ const Works = () => {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
-          </div>
+         
+         
           <div className="w-secCircle">
             <img src={Amazon} alt="" />
           </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
-          </div>
+         
           <div className="w-secCircle">
             <img src={Facebook} alt="" />
           </div>
