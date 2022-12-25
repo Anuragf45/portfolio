@@ -13,7 +13,7 @@ const Footer = () => {
         <span>anuragf45@gmail.com</span>
         <div className="f-icons">
           <a href="https://www.instagram.com/_rohitian_anurag_/?hl=en"><Insta color="white" size={"3rem"} /></a>
-          <a href=""><Facebook color="white" size={"3rem"} /></a>
+          <a href="https://m.facebook.com/rohitian.anurag.5/"><Facebook color="white" size={"3rem"} /></a>
           <a href="https://www.linkedin.com/in/anurag-srivastava-151448152/"> <Gitub color="white" size={"3rem"} /></a>
          
          
